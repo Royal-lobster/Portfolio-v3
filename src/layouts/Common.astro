@@ -1,0 +1,21 @@
+---
+import Metadata from "../components/common/Metadata.astro";
+import Navbar from "../components/common/Navbar.svelte";
+import Footer from "../components/common/Footer.svelte";
+
+const { title, description } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <Metadata title={title} description={description} />
+  </head>
+
+  <body class="bg-neutral-950 text-neutral-100 p-4">
+    <Navbar />
+    <main class="container p-4 mx-auto">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
