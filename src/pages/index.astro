@@ -2,9 +2,11 @@
 import Common from "../layouts/Common.astro";
 import Hero from "../components/portfolio/sections/Hero.svelte";
 import AboutMe from "../components/portfolio/sections/AboutMe.svelte";
+import Projects from "../components/portfolio/sections/Projects.svelte";
 ---
 
 <Common title="{SITE_TITLE}" description="{SITE_DESCRIPTION}">
   <Hero client:load />
   <AboutMe />
+  <Projects />
 </Common>

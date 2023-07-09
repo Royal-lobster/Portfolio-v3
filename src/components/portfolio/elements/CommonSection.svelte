@@ -4,14 +4,17 @@
   export let description: string;
 </script>
 
-<section>
-  <div class="flex gap-4 items-center">
-    <svelte:component this={icon} />
-    <h2 class="text-2xl">{title}</h2>
+<section class="flex flex-col gap-8">
+  <div class="flex flex-col gap-4">
+    <div class="flex gap-4 items-center">
+      <svelte:component this={icon} size={35} />
+      <h2 class="text-4xl font-black">{title}</h2>
+    </div>
+    <p>
+      {description}
+    </p>
   </div>
-  <p>
-    {description}
-  </p>
+
   <div>
     <slot />
   </div>
