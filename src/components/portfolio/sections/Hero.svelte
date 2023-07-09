@@ -1,5 +1,5 @@
-<script>
-  import { button } from "../../elements/Button";
+<script lang="ts">
+  import { button } from "../../elements/Button/variants";
   import BlurryAnimation from "../elements/BlurryAnimation.svelte";
 </script>
 
@@ -14,7 +14,7 @@
       I am a full stack web developer focused on creating web applications with
       user in mind
     </p>
-    <div class="space-x-4">
+    <div class="flex gap-4">
       <button class={button()}>Projects</button>
       <button class={button({ type: "outline" })}>Contact</button>
     </div>

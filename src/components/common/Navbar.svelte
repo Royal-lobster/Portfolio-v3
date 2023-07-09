@@ -1,6 +1,6 @@
 <script lang="ts">
-  import SR from "../../assets/logos/sr.svelte";
-  import { button } from "../elements/Button";
+  import SR from "../icons/sr.svelte";
+  import { button } from "../elements/Button/variants";
 
   const links = [
     { name: "Home", href: "/" },
