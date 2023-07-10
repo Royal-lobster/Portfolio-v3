@@ -11,8 +11,8 @@
   export let leftIcon: ComponentType;
 
   const buttonSize: Record<Size, number> = {
-    sm: 18,
-    base: 25,
+    sm: 16,
+    base: 20,
   };
 </script>
 

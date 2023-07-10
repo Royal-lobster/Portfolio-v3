@@ -7,6 +7,8 @@ import Projects from "../components/portfolio/sections/Projects.svelte";
 
 <Common title="{SITE_TITLE}" description="{SITE_DESCRIPTION}">
   <Hero client:load />
-  <AboutMe />
-  <Projects />
+  <div class="max-w-6xl mx-auto">
+    <AboutMe />
+    <Projects />
+  </div>
 </Common>
