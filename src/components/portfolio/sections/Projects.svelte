@@ -9,7 +9,7 @@
   icon={IconBriefcase}
   description="Some of my favorite hobby projects i worked on !"
 >
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {#each Array(8) as _, i}
       <ProjectCard />
     {/each}
