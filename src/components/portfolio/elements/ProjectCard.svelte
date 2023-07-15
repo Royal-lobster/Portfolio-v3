@@ -4,7 +4,7 @@
 </script>
 
 <article
-  class="flex flex-col gap-0 border border-neutral-800 rounded-xl overflow-hidden"
+  class="flex flex-col gap-0 border border-neutral-800 rounded-lg overflow-hidden"
 >
   <img
     class="w-full h-60 object-cover"
