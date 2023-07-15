@@ -6,6 +6,7 @@ import Projects from "../components/portfolio/sections/Projects.svelte";
 import Experience from "../components/portfolio/sections/Experience.svelte";
 
 import { getCollection } from "astro:content";
+import RecentBlogPosts from "../components/portfolio/sections/RecentBlogPosts.svelte";
 
 const experience = await getCollection("experience");
 ---
@@ -16,5 +17,6 @@ const experience = await getCollection("experience");
     <AboutMe />
     <Projects />
     <Experience data={experience} />
+    <RecentBlogPosts />
   </div>
 </Common>

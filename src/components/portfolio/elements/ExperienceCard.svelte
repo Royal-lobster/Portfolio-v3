@@ -24,7 +24,7 @@
         : "Present"}
     </p>
     <h3 class="text-2xl font-bold">{title}</h3>
-    <div class="flex items-center justify-between mt-2">
+    <div class="flex flex-wrap items-center justify-between mt-2">
       <div class="flex items-center">
         @
         <a target="_blank" class={button({ type: "link" })} href={companyLink}>

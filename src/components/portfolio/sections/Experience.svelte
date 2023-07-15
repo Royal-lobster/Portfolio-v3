@@ -12,7 +12,7 @@
   description="Various hats i wore and wearing 🎩"
   icon={IconBrandRedhat}
 >
-  <div class="grid grid-cols-3 w-full gap-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6">
     {#each data as entry}
       <ExperienceCard
         title={entry.data.title}
