@@ -1,0 +1,47 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "pubDate",
+          "name": "pubDate",
+          "type": "datetime"
+        },
+        {
+          "title": "heroImage",
+          "name": "heroImage",
+          "type": "image"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/src/content/posts"
+    },
+    {
+      "title": "experience",
+      "path": "[[workspace]]/src/content/experience"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": []
+}
