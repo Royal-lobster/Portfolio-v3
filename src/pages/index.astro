@@ -3,12 +3,14 @@ import Common from "../layouts/Common.astro";
 import Hero from "../components/portfolio/sections/Hero.svelte";
 import AboutMe from "../components/portfolio/sections/AboutMe.svelte";
 import Projects from "../components/portfolio/sections/Projects.svelte";
+import Experience from "../components/portfolio/sections/Experience.svelte";
 ---
 
 <Common title="{SITE_TITLE}" description="{SITE_DESCRIPTION}">
   <Hero client:load />
-  <div class="max-w-6xl mx-auto">
+  <div class="max-w-6xl mx-auto flex flex-col gap-10 my-10">
     <AboutMe />
     <Projects />
+    <Experience />
   </div>
 </Common>
