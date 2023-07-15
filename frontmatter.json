@@ -22,8 +22,8 @@
           "type": "datetime"
         },
         {
-          "title": "heroImage",
-          "name": "heroImage",
+          "title": "coverImage",
+          "name": "coverImage",
           "type": "image"
         }
       ]

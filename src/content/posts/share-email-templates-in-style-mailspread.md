@@ -2,10 +2,11 @@
 title: Share Email Templates in style with Mailspread
 description: Check out how i made a tiny web application that lets you to share email templates in style
 pubDate: Jul 08 2022
-heroImage: null
+coverImage: ../../assets/mailspread-cover.png
 ---
+
 # 🧘🏻‍♂️Quick introduction
-[Mailspread](https://mailspread.netlify.app/) is a email template sharing application that lets creators to create email templates and share it with their users. And yes its yet an other mailto generator but with powers ! 
+[Mailspread](https://mailspread.netlify.app/) is a email template sharing application that lets creators to create email templates and share it with their users. And yes its yet an other mailto generator but with powers !
 
 This tool is so simple that it has only 2 pages. One for creating the templates (create page) and other for people to use those templates (send page). Hang on while I explain what it does and then lets go to the part where you can read how I did it !
 
