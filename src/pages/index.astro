@@ -4,6 +4,10 @@ import Hero from "../components/portfolio/sections/Hero.svelte";
 import AboutMe from "../components/portfolio/sections/AboutMe.svelte";
 import Projects from "../components/portfolio/sections/Projects.svelte";
 import Experience from "../components/portfolio/sections/Experience.svelte";
+
+import { getCollection } from "astro:content";
+
+const experience = await getCollection("experience");
 ---
 
 <Common title="{SITE_TITLE}" description="{SITE_DESCRIPTION}">
@@ -11,6 +15,6 @@ import Experience from "../components/portfolio/sections/Experience.svelte";
   <div class="max-w-6xl mx-auto flex flex-col gap-10 my-10">
     <AboutMe />
     <Projects />
-    <Experience />
+    <Experience data={experience} />
   </div>
 </Common>

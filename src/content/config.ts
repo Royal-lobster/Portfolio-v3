@@ -36,10 +36,10 @@ const experience = defineCollection({
       .transform((val) => new Date(val)),
     endDate: z
       .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
-	company: z.string(),
-	companyLink: z.string().url(),
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
+    company: z.string(),
+    companyLink: z.string().url(),
   }),
 });
 
