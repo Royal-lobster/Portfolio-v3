@@ -1,5 +1,5 @@
 <section
-  class="flex flex-col md:flex-row justify-center gap-8 my-16 max-w-2xl mx-auto"
+  class="flex flex-col md:flex-row justify-center gap-8 mt-16 max-w-2xl mx-auto"
 >
   <h1 class="text-3xl md:text-4xl font-black md:text-right">
     About <br class="hidden md:block" /> Me !
