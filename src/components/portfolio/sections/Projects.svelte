@@ -16,7 +16,7 @@
     {/each}
   </div>
   <div
-    class="flex flex-col md:flex-row text-center md:text-right items-center gap-4 md:gap-8 my-8 mx-auto border border-neutral-800 rounded-lg p-4"
+    class="flex flex-col md:flex-row text-center md:text-left items-center gap-4 md:gap-8 mt-8 mx-auto border border-neutral-800 rounded-lg p-4"
   >
     <p>
       There are still a lot more i can include here 😅 but i want to limit this
