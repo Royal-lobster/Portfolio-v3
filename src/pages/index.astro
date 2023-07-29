@@ -12,8 +12,8 @@ const experience = await getCollection("experience");
 ---
 
 <Common title="{SITE_TITLE}" description="{SITE_DESCRIPTION}">
-  <Hero client:load />
   <div class="max-w-6xl mx-auto flex flex-col gap-10 my-10">
+    <Hero client:load />
     <AboutMe />
     <Projects />
     <Experience data={experience} />
