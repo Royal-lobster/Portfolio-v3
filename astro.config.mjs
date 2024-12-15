@@ -8,8 +8,5 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://example.com',
-  experimental: {
-    assets: true
-  },
   integrations: [mdx(), sitemap(), tailwind(), svelte()]
 });
