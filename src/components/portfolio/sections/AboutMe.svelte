@@ -4,7 +4,7 @@
   <h1 class="text-3xl md:text-4xl font-black md:text-right">
     About <br class="hidden md:block" /> Me !
   </h1>
-  <div class="h-36 hidden md:block w-1 border-l border-neutral-800" />
+  <div class="h-36 hidden md:block w-1 border-l border-neutral-800"></div>
   <div class="font-medium space-y-4">
     <p>
       Hello 👋 I am a 21 years old Full Stack Web developer and UI and UX
